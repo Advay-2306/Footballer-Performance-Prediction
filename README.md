@@ -1,6 +1,6 @@
 # Football Player Performance Prediction
 
-This project predicts the overall performance rating of football players using a SQLite database containing player attributes and statistics. Three machine learning models are developed and compared: a Neural Network (with hyperparameter tuning), Random Forest, and XGBoost. The goal is to identify the most effective model for predicting player performance based on features such as physical attributes, skills, and work rates.
+This project predicts the overall performance rating of football players using a SQLite database containing player attributes and statistics. Three models are developed and compared: a Neural Network, Random Forest, and XGBoost. The goal is to identify the most effective model for predicting player performance based on features such as physical attributes, skills, and work rates.
 
 ## Project Overview
 This project leverages a football player dataset to predict overall ratings using three machine learning models:
