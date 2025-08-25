@@ -4,7 +4,7 @@ This project predicts the overall performance rating of football players using a
 
 ## Project Overview
 This project leverages a football player dataset to predict overall ratings using three machine learning models:
-- **Neural Network (NN)**: A deep learning model built with Keras, optimized using KerasTuner to tune the number of layers, units per layer, and learning rate.
+- **Neural Network (NN)**: A deep learning model built with TensorFlow and Keras.
 - **Random Forest**: An ensemble model using decision trees, implemented with scikit-learn for robust predictions.
 - **XGBoost**: A gradient boosting model, implemented with the XGBoost library, known for high performance in regression tasks.
 
@@ -43,7 +43,7 @@ The project follows these steps:
 5.  **Model Development**:
     
     *   **Neural Network**:
-        *   Built using Keras with an input layer, three hidden layers (128, 64, 32 units) with ReLU activation, and a single output unit    
+        *   Built using Keras with an input layer, three hidden layers (128, 64, 32 units) with ReLU activation, and a single output unit.
     *   **Random Forest**:
         *   Implemented using sklearn.ensemble.RandomForestRegressor with default or tuned parameters (e.g., number of trees, max depth). 
     *   **XGBoost**:   
